@@ -61,7 +61,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "BTT v1.4 Turbo for CE5P by Karel Copak V1 based on Marlin 2.1.2.7" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "Ender5Plus-SKR1.4T-TMC2209-Marlin2.1.2.7 by Karel Copak" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**

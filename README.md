@@ -1,4 +1,14 @@
 <h1 align="center">This is a custom configuration of Marlin Firmware for the Creality Ender 5 Plus with a BigTreeTech 1.4 Turbo board with TMC2209 drivers. Based on official Marlin 2.1.2.7</h1>
+
+Marlin 2.1.2.7 for Creality Ender 5 Plus
+Board: BigTreeTech SKR v1.4 Turbo
+
+Drivers: TMC2209
+
+Version: v0.1
+
+Author: Karel Copak
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
