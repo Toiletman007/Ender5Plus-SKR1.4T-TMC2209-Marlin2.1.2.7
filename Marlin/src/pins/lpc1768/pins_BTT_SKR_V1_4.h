@@ -236,8 +236,10 @@
   #define X_SERIAL_TX_PIN                  P1_10
   #define Y_SERIAL_TX_PIN                  P1_09
   #define Z_SERIAL_TX_PIN                  P1_08
+  //added Z2 and changed it for E1 driver
+  #define Z2_SERIAL_TX_PIN                 P1_01
   #define E0_SERIAL_TX_PIN                 P1_04
-  #define E1_SERIAL_TX_PIN                 P1_01
+  //#define E1_SERIAL_TX_PIN                 
 
   // Reduce baud rate to improve software serial reliability
   #ifndef TMC_BAUD_RATE

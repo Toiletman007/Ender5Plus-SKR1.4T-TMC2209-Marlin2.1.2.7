@@ -976,7 +976,7 @@
    * If not defined, probe limits will be used.
    * Override with 'M422 S<index> X<pos> Y<pos>'.
    */
-  #define Z_STEPPER_ALIGN_XY { {  20, 175 }, { 330,  175 } }
+  #define Z_STEPPER_ALIGN_XY { { 60, 175 }, { 290, 175 } }
 
   /**
    * Orientation for the automatically-calculated probe positions.
@@ -2450,7 +2450,7 @@
  * Currently handles M108, M112, M410, M876
  * NOTE: Not yet implemented for all platforms.
  */
-//#define EMERGENCY_PARSER
+#define EMERGENCY_PARSER
 
 /**
  * Realtime Reporting (requires EMERGENCY_PARSER)
