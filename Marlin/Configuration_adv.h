@@ -3039,15 +3039,15 @@
    */
   //set xyz to spreadCycle
   #if HAS_STEALTHCHOP
-    //#define STEALTHCHOP_XY
-    //#define STEALTHCHOP_Z
+    #define STEALTHCHOP_XY
+    #define STEALTHCHOP_Z
     #define STEALTHCHOP_I
     #define STEALTHCHOP_J
     #define STEALTHCHOP_K
     #define STEALTHCHOP_U
     #define STEALTHCHOP_V
     #define STEALTHCHOP_W
-    //#define STEALTHCHOP_E
+    #define STEALTHCHOP_E
   #endif
 
   
@@ -3176,9 +3176,9 @@
   #if EITHER(SENSORLESS_HOMING, SENSORLESS_PROBING)
     // TMC2209: 0...255. TMC2130: -64...63
     //use command line to set it later
-    #define X_STALL_SENSITIVITY  85
+    #define X_STALL_SENSITIVITY  95
     #define X2_STALL_SENSITIVITY X_STALL_SENSITIVITY
-    #define Y_STALL_SENSITIVITY  110
+    #define Y_STALL_SENSITIVITY  120
     #define Y2_STALL_SENSITIVITY Y_STALL_SENSITIVITY
     //#define Z_STALL_SENSITIVITY  8
     //#define Z2_STALL_SENSITIVITY Z_STALL_SENSITIVITY
